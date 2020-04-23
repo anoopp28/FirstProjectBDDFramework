@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.86812">
+    <testcase classname="Contact data creation" name="Free CRM create new Deal scenario" time="42.86812">
+        <failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@name='first_name']&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'&#10;System info: host: 'BLRCND52001551', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:336)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:394)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)&#13;&#10;&#9;at StepDefinition.DealStepDefinition.user_enters_contact_details(DealStepDefinition.java:72)&#13;&#10;&#9;at ✽.Then User enters contact details(C:/Users/52001551/eclipse-workspace/FirstProjectBDDFramework/src/main/java/Features/Deals.feature:12)&#13;&#10;"><![CDATA[Given User is already on Login page.........................................passed
+When Title of login page is Free CRM........................................passed
+Then User enters Username and Password......................................passed
+Then User clicks on login button............................................passed
+Then User is on Home page...................................................passed
+Then User moves to contact details..........................................passed
+Then User enters contact details............................................failed
+Then close the browser......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@name='first_name']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'BLRCND52001551', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at StepDefinition.DealStepDefinition.user_enters_contact_details(DealStepDefinition.java:72)
+	at ✽.Then User enters contact details(C:/Users/52001551/eclipse-workspace/FirstProjectBDDFramework/src/main/java/Features/Deals.feature:12)
+]]></failure>
+    </testcase>
+</testsuite>
